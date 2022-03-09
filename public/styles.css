@@ -1,0 +1,101 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 64px;
+}
+
+body {
+  padding: 50px 100px 100px 100px;
+  background-color: #d3dedc !important;
+  background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
+
+@media (max-width: 500px) {
+  body {
+    padding-left: 10%;
+  }
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* Search for Games */
+.searchTerm {
+  width: 40%;
+  border: 3px solid #212529;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #d3dedc;
+}
+
+.searchTerm:focus {
+  color: #212529;
+}
+
+/* Search Icon */
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #212529;
+  background: #212529;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn {
+  margin: 30px 5px;
+}
+
+@media (max-width: 500px) {
+  .btn {
+    margin: 10px 5px;
+  }
+
+  .searchTerm {
+    width: 70%;
+  }
+}
+
+.card {
+  width: 18rem;
+  text-align: center;
+  cursor: pointer;
+  z-index: 20;
+  border-radius: 0.75rem;
+  box-shadow: 5px 5px 10px #7c99ac;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  background-color: #d3dedc;
+}
+
+.card-title {
+  background-color: #e8eae6;
+  margin-bottom: 0 !important;
+  padding: 10px 0px;
+}
+
+.category {
+  text-align: center;
+  cursor: pointer;
+}
