@@ -5,6 +5,7 @@ This is my Git repository which has the React App for the position of Junior Fro
 Successfully deployed to the following URLs:
 
 https://leo-vegas-frontend-challenge-murali-puvvada.vercel.app/
+
 https://leo-vegas-frontend-challenge.vercel.app/
 https://leo-vegas-frontend-challenge-git-main-murali-puvvada.vercel.app/
 
