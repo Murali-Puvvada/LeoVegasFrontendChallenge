@@ -85,6 +85,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.card:hover {
+  transform: scale(1.1);
+  transition: 1.25s;
+  box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
 input {
   background-color: #d3dedc;
 }
